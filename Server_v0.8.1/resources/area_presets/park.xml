@@ -1,0 +1,197 @@
+<?xml version="1.0"?>
+<Preset width="2" height="2">
+	<Object>
+		<Model variants="natures_gr" />
+		<Transform>
+			<Translate x="-5.2493" z="-5.2493" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="natures_gr" />
+		<Transform>
+			<Translate x="-5.2493" z="5.2493" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="natures_gr" />
+		<Transform>
+			<Translate x="5.2493" z="-5.2493" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="natures_gr" />
+		<Transform>
+			<Translate x="5.2493" z="5.2493" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="house_fl" />
+		<Transform>
+			<Translate z="7.87389994" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="house_fl" />
+		<Transform>
+			<Translate z="2.62500024" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="house_fl" />
+		<Transform>
+			<Translate z="-2.62400007" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="house_fl" />
+		<Transform>
+			<Translate z="-7.87389994" />
+		</Transform>
+	</Object>
+	<Object name="big_three_obj">
+		<Model variants="@big_threes" />
+		<Transform>
+			<Translate x="8" z="2.5" />
+		</Transform>
+	</Object>
+	<Object depend="big_three_obj">
+		<Transform>
+			<Translate x="8" z="-2.5" />
+		</Transform>
+	</Object>
+	<Object depend="big_three_obj">
+		<Transform>
+			<Translate x="8" z="7.5" />
+		</Transform>
+	</Object>
+	<Object depend="big_three_obj">
+		<Transform>
+			<Translate x="8" z="-7.5" />
+		</Transform>
+	</Object>
+	<Object depend="big_three_obj">
+		<Transform>
+			<Translate x="-8" z="-7.5" />
+		</Transform>
+	</Object>
+	<Object depend="big_three_obj">
+		<Transform>
+			<Translate x="-8" z="-2.5" />
+		</Transform>
+	</Object>
+	<Object depend="big_three_obj">
+		<Transform>
+			<Translate x="-8" z="2.5" />
+		</Transform>
+	</Object>
+	<Object depend="big_three_obj">
+		<Transform>
+			<Translate x="-8" z="7.5" />
+		</Transform>
+	</Object>
+	<Object name="bench_obj_1">
+		<Model variants="@benches" />
+		<Transform>
+			<Translate x="-5" z="-2.5" />
+			<Rotate y="90" />
+		</Transform>
+	</Object>
+	<Object depend="bench_obj_1">
+		<Transform>
+			<Translate x="-5" z="2.5" />
+			<Rotate y="90" />
+		</Transform>
+	</Object>
+	<Object depend="bench_obj_1">
+		<Transform>
+			<Translate x="5" z="-2.5" />
+			<Rotate y="-90" />
+		</Transform>
+	</Object>
+	<Object depend="bench_obj_1">
+		<Transform>
+			<Translate x="5" z="2.5" />
+			<Rotate y="-90" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="bush_1" />
+		<Transform>
+			<Translate x="2.5" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="bush_1" />
+		<Transform>
+			<Translate x="2.5" z="2.5" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="bush_1" />
+		<Transform>
+			<Translate x="2.70000005" z="5" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="bush_1" />
+		<Transform>
+			<Translate x="2.5" z="-2.5" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="bush_1" />
+		<Transform>
+			<Translate x="2.5" z="-5" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="bush_1" />
+		<Transform>
+			<Translate x="-2.5" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="bush_1" />
+		<Transform>
+			<Translate x="-2.5" z="-2.5" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="bush_1" />
+		<Transform>
+			<Translate x="-2.5" z="-5" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="bush_1" />
+		<Transform>
+			<Translate x="-2.5" z="2.5" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="bush_1" />
+		<Transform>
+			<Translate x="-2.5" z="5" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="billbrd_s" />
+		<Transform>
+			<Translate x="1.80000007" z="9.90000057" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="rock_bg" />
+		<Transform>
+			<Translate x="-5.5" z="-7.5999999" />
+			<Rotate y="45" />
+		</Transform>
+	</Object>
+	<Object probability="0.7">
+		<Model variants="rock_sm" />
+		<Transform>
+			<Translate x="-4.70000029" z="-8.30000019" />
+			<Rotate y="-60" />
+		</Transform>
+	</Object>
+</Preset>

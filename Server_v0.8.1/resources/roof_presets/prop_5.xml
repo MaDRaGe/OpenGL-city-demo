@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Preset>
+	<Object>
+		<Model variants="roof_pr roof_pr_a" />
+    <Transform>
+			<Rotate y="0.0 90.0 180.0 270.0" />
+		</Transform>
+	</Object>
+</Preset>

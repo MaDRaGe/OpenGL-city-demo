@@ -1,0 +1,378 @@
+<?xml version="1.0"?>
+<Preset width="2" height="2">
+	<Object>
+		<Model variants="super_m" />
+		<Transform>
+			<Translate x="-1.5" z="-0.389999986" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="@sky_small_houses" />
+		<Transform>
+			<Translate x="6.87999964" z="-7.5999999" />
+			<Rotate y="-180" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="@sky_small_houses" />
+		<Transform>
+			<Translate x="-6.55999994" z="-7.5" />
+			<Rotate y="-180" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="music_st chicken_sh fast_food" />
+		<Transform>
+			<Translate x="0.149999991" z="-6.89999962" />
+			<Rotate y="-180" />
+		</Transform>
+	</Object>
+	<Object name="dustbin_obj_1" probability="0.5">
+		<Model variants="dustbin" />
+		<Transform>
+			<Translate x="-0.639999986" z="-9.5" />
+		</Transform>
+	</Object>
+  <Object name="dustbin_obj_2" probability="0.5">
+		<Model variants="dustbin" />
+		<Transform>
+			<Translate x="-8.32999992" z="0.859999955" />
+		</Transform>
+	</Object>
+  <Object inverse-depend="dustbin_obj_1">
+		<Model variants="dustbin" />
+		<Transform>
+			<Translate x="-2.44000006" z="-9.5" />
+		</Transform>
+	</Object>
+	<Object inverse-depend="dustbin_obj_2">
+    <Model variants="dustbin" />
+		<Transform>
+			<Translate x="-8.32999992" z="-3.25" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="@benches" />
+		<Transform>
+			<Translate x="1.02999997" z="-9.85999966" />
+			<Rotate y="-180" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="bus_stop" />
+		<Transform>
+			<Translate x="-9.34000015" z="-1.19999993" />
+			<Rotate y="-90" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="@benches" />
+		<Transform>
+			<Translate x="-9.17999935" z="-1.18999994" />
+			<Rotate y="-90" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="road_sh" />
+		<Transform>
+			<Translate x="-10.3299999" z="9.39999962" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="road_sh" />
+		<Transform>
+			<Translate x="-9.18999958" z="10.3499994" />
+			<Rotate y="-90" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="road_sh" />
+		<Transform>
+			<Translate x="-10.3299999" z="7.29999971" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="road_sh" />
+		<Transform>
+			<Translate x="-9.18999958" z="8.34999943" />
+			<Rotate y="-90" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="road_sh" />
+		<Transform>
+			<Translate x="-10.3299999" z="5.19999981" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="road_sh" />
+		<Transform>
+			<Translate x="-10.3199997" z="3.0999999" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="road_sh" />
+		<Transform>
+			<Translate x="-9.18999958" z="6.25" />
+			<Rotate y="-90" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="road_sh" />
+		<Transform>
+			<Translate x="-9.18999958" z="4.11999989" />
+			<Rotate y="-90" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="road_sh" />
+		<Transform>
+			<Translate x="-9.18999958" z="2.13999987" />
+			<Rotate y="-90" />
+		</Transform>
+	</Object>
+  <Object name="car_obj_1">
+		<Model variants="@cars" />
+		<Transform>
+			<Translate x="-8.47000027" z="9.30000019" />
+      <Rotate y="0.0 180.0" />
+		</Transform>
+	</Object>
+	<Object depend="car_obj_1">
+		<Model variants="@cars @jeeps" />
+		<Transform>
+			<Translate x="-8.47999954" z="7.31999969" />
+		</Transform>
+	</Object>
+	<Object probability="0.6">
+		<Model variants="@cars @jeeps" />
+		<Transform>
+			<Translate x="-8.48999977" z="5.17999983" />
+      <Rotate y="0.0 180.0" />
+		</Transform>
+	</Object>
+	<Object probability="0.3">
+		<Model variants="taxi police" />
+		<Transform>
+			<Translate x="-8.47999954" z="3.13999987" />
+      <Rotate y="0.0 180.0" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="rest bar" />
+		<Transform>
+			<Translate x="8.40000057" z="-1.89999998" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="house_fl" />
+		<Transform>
+			<Translate x="5.47000027" z="2.62100005" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="house_fl" />
+		<Transform>
+			<Translate x="5.46999979" z="7.86999989" />
+		</Transform>
+	</Object>
+  <Object>
+		<Model variants="road_sh" />
+		<Transform>
+			<Translate x="-7.08999968" z="10.3499994" />
+			<Rotate y="-90" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="road_sh" />
+		<Transform>
+			<Translate x="3.63999987" z="10.3499994" />
+			<Rotate y="-90" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="road_sh" />
+		<Transform>
+			<Translate x="3.63999987" z="8.34999943" />
+			<Rotate y="-90" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="road_sh" />
+		<Transform>
+			<Translate x="3.63999987" z="6.25" />
+			<Rotate y="-90" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="road_sh" />
+		<Transform>
+			<Translate x="3.63999987" z="4.11999989" />
+			<Rotate y="-90" />
+		</Transform>
+	</Object>
+	<Object probability="0.3">
+		<Model variants="@cars @jeeps" />
+		<Transform>
+			<Translate x="2.89999986" z="9.30000019" />
+			<Rotate y="0.0 -180.0" />
+		</Transform>
+	</Object>
+	<Object probability="0.7">
+		<Model variants="@cars @jeeps" />
+		<Transform>
+			<Translate x="2.89999986" z="7.31999969" />
+			<Rotate y="0.0 -180.0" />
+		</Transform>
+	</Object>
+	<Object probability="0.2">
+		<Model variants="@cars @jeeps" />
+		<Transform>
+			<Translate x="2.89999986" z="5.17999983" />
+			<Rotate y="0.0 -180.0" />
+		</Transform>
+	</Object>
+	<Object probability="0.2">
+		<Model variants="@cars taxi" />
+		<Transform>
+			<Translate x="2.89999986" z="3.13999987" />
+			<Rotate y="0.0 -180.0" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="road_sh" />
+		<Transform>
+			<Translate x="7.29999971" z="10.3499994" />
+			<Rotate y="-90" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="road_sh" />
+		<Transform>
+			<Translate x="7.29999971" z="8.30999947" />
+			<Rotate y="-90" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="road_sh" />
+		<Transform>
+			<Translate x="7.29999971" z="6.25" />
+			<Rotate y="-90" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="road_sh" />
+		<Transform>
+			<Translate x="7.29999971" z="4.11999989" />
+			<Rotate y="-90" />
+		</Transform>
+	</Object>
+	<Object name="car_obj1" probability="0.6">
+		<Model variants="@cars @jeeps" />
+		<Transform>
+			<Translate x="8.10999966" z="9.32999992" />
+      <Rotate y="0.0 180.0" />
+		</Transform>
+	</Object>
+  <Object inverse-depend="car_obj1">
+		<Model variants="traf_cone" />
+		<Transform>
+			<Translate x="8.10999966" z="9.32999992" />
+		</Transform>
+	</Object>
+	<Object name="car_obj2" probability="0.6">
+		<Model variants="@cars @jeeps" />
+		<Transform>
+			<Translate x="8.10999966" z="7.31999969" />
+      <Rotate y="0.0 180.0" />
+		</Transform>
+	</Object>
+  <Object inverse-depend="car_obj2">
+		<Model variants="traf_cone" />
+		<Transform>
+			<Translate x="8.10999966" z="7.31999969" />
+		</Transform>
+	</Object>
+	<Object name="car_obj3" probability="0.7">
+		<Model variants="taxi" />
+		<Transform>
+			<Translate x="8.10999966" z="5.17999983" />
+      <Rotate y="0.0 180.0" />
+		</Transform>
+	</Object>
+  <Object inverse-depend="car_obj3">
+		<Model variants="traf_cone" />
+		<Transform>
+			<Translate x="8.10999966" z="5.17999983" />
+		</Transform>
+	</Object>
+  <Object name="car_obj4" probability="0.4">
+		<Model variants="@cars @jeeps" />
+		<Transform>
+			<Translate x="8.10999966" z="3.13999987" />
+      <Rotate y="0.0 180.0" />
+		</Transform>
+	</Object>
+  <Object inverse-depend="car_obj4">
+		<Model variants="traf_cone" />
+		<Transform>
+			<Translate x="8.10999966" z="3.13999987" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="billbrd_s" />
+		<Transform>
+			<Translate x="9.94999981" z="10.3199997" />
+		</Transform>
+	</Object>
+	<Object probability="0.4">
+		<Model variants="billbrd_m" />
+		<Transform>
+			<Translate x="-3.65999985" z="4.75999975" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="house_fl" />
+		<Transform>
+			<Translate x="7.86999989" z="0.789999962" />
+			<Rotate y="90" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="road_sh" />
+		<Transform>
+			<Translate x="1.54999995" z="10.3499994" />
+			<Rotate y="-90" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="pot_bu_b" />
+		<Transform>
+			<Translate x="5.4000001" z="-1" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="tile" />
+		<Transform>
+			<Translate x="-5.2493" z="-5.2493" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="tile" />
+		<Transform>
+			<Translate x="-5.2493" z="5.2493" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="tile" />
+		<Transform>
+			<Translate x="5.2493" z="-5.2493" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="tile" />
+		<Transform>
+			<Translate x="5.2493" z="5.2493" />
+		</Transform>
+	</Object>
+</Preset>

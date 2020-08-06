@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>H:\_Labs\KG\ShaderHandaling\</FILEPATH>
+      <FILENAME>RenderManager.h</FILENAME>
+      <LINE>44</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Переменная "RenderManager::camera" не инициализирована. Всегда инициализируйте переменную-член (type.6).</DESCRIPTION>
+    <FUNCTION>RenderManager::{ctor}</FUNCTION>
+    <DECORATED>??0RenderManager@@AAE@XZ</DECORATED>
+    <FUNCLINE>44</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>RenderManager::camera</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>

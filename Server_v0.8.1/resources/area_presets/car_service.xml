@@ -1,0 +1,410 @@
+<?xml version="1.0"?>
+<Preset width="2" height="2">
+	<Object>
+		<Model variants="gas_st" />
+		<Transform>
+			<Translate x="-4.69999981" z="-3.77999997" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="@cars @jeeps" />
+		<Transform>
+			<Translate x="-4.9000001" z="-2" />
+		</Transform>
+	</Object>
+	<Object probability="0.7">
+		<Model variants="@cars @jeeps" />
+		<Transform>
+			<Translate x="-5" z="2.70000005" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="a_service" />
+		<Transform>
+			<Translate x="8.40000057" y="0.05" z="-5.80000019" />
+			<Rotate y="-90" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="@benches" />
+		<Transform>
+			<Translate x="8.32999992" z="-0.599999964" />
+		</Transform>
+	</Object>
+	<Object name="dustbin_obj" probability="0.5">
+		<Model variants="dustbin" />
+		<Transform>
+			<Translate x="6.79999971" z="-0.649999976" />
+		</Transform>
+	</Object>
+  <Object inverse-depend="dustbin_obj">
+		<Model variants="dustbin" />
+		<Transform>
+			<Translate x="9.84999943" z="-0.649999976" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="fence" />
+		<Transform>
+			<Translate x="5.80000019" z="-10.4000006" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="fence" />
+		<Transform>
+			<Translate x="4.8499999" z="-10.3999996" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="fence" />
+		<Transform>
+			<Translate x="3.90999985" z="-10.3999996" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="fence" />
+		<Transform>
+			<Translate x="2.97000003" z="-10.3999996" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="fence" />
+		<Transform>
+			<Translate x="2.02999997" z="-10.3999996" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="fence" />
+		<Transform>
+			<Translate x="1.09000003" z="-10.3999996" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="fence" />
+		<Transform>
+			<Translate x="0.140000001" z="-10.3999996" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="fence" />
+		<Transform>
+			<Translate x="-0.799999952" z="-10.3999996" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="fence" />
+		<Transform>
+			<Translate x="10.3000002" z="-0.50999999" />
+			<Rotate y="90" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="fence" />
+		<Transform>
+			<Translate x="10.3000002" z="0.437000006" />
+			<Rotate y="90" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="fence" />
+		<Transform>
+			<Translate x="10.2950001" z="1.38800001" />
+			<Rotate y="90" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="fence" />
+		<Transform>
+			<Translate x="10.2880001" z="2.32700014" />
+			<Rotate y="90" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="sign_stop" />
+		<Transform>
+			<Translate x="-10.3000002" z="1" />
+			<Rotate y="270.0" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="sign_stop" />
+		<Transform>
+			<Translate x="-10.3000002" z="-3.70000005" />
+			<Rotate y="270.0" />
+		</Transform>
+	</Object>
+	<Object probability="0.4">
+		<Model variants="billbrd_m" />
+		<Transform>
+			<Translate x="1.02999997" z="10.1700001" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="fence" />
+		<Transform>
+			<Translate x="10.2850008" z="3.28400016" />
+			<Rotate y="90" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="fence" />
+		<Transform>
+			<Translate x="10.2850008" z="4.23500013" />
+			<Rotate y="90" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="fence" />
+		<Transform>
+			<Translate x="10.2850008" z="5.18400002" />
+			<Rotate y="90" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="fence" />
+		<Transform>
+			<Translate x="10.2890005" z="6.13500023" />
+			<Rotate y="90" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="fence" />
+		<Transform>
+			<Translate x="10.2960005" z="7.07500029" />
+			<Rotate y="90" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="fence" />
+		<Transform>
+			<Translate x="10.3000002" z="8.03200054" />
+			<Rotate y="90" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="fence" />
+		<Transform>
+			<Translate x="10.2960005" z="8.98800087" />
+			<Rotate y="90" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="fence" />
+		<Transform>
+			<Translate x="10.2900009" z="9.93300056" />
+			<Rotate y="90" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="tile" />
+		<Transform>
+			<Translate x="-5.2493" z="-5.2493" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="tile" />
+		<Transform>
+			<Translate x="-5.2493" z="5.2493" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="tile" />
+		<Transform>
+			<Translate x="5.2493" z="-5.2493" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="tile" />
+		<Transform>
+			<Translate x="5.2493" z="5.2493" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="fence" />
+		<Transform>
+			<Translate x="9.78999996" z="10.3899994" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="fence" />
+		<Transform>
+			<Translate x="8.88000011" z="10.3899994" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="fence" />
+		<Transform>
+			<Translate x="7.94000006" z="10.3899994" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="fence" />
+		<Transform>
+			<Translate x="7" z="10.3899994" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="@cars @jeeps" />
+		<Transform>
+			<Translate x="7.88999987" z="8.97000027" />
+		</Transform>
+	</Object>
+	<Object probability="0.7">
+		<Model variants="@cars @jeeps" />
+		<Transform>
+			<Translate x="7.98000002" z="7.01999998" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="@trucks @containers" />
+		<Transform>
+			<Translate x="7.13999987" z="4.9000001" />
+		</Transform>
+	</Object>
+	<Object probability="0.75">
+		<Model variants="@cars @jeeps" />
+		<Transform>
+			<Translate x="7.48000002" y="0.05" z="-8.38999939" />
+		</Transform>
+	</Object>
+	<Object probability="0.75">
+		<Model variants="@cars @jeeps" />
+		<Transform>
+			<Translate x="7.46000004" y="0.05" z="-5.19000006" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="fence" />
+		<Transform>
+			<Translate x="6.06999969" z="10.3899994" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="grass_ts" />
+		<Transform>
+			<Translate x="-7.87389994" y="0.0500000007" z="7.87389994" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="grass_fc" />
+		<Transform>
+			<Translate x="-10.2399998" z="8.65999985" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="grass_fc" />
+		<Transform>
+			<Translate x="-8.13999939" z="10.2299995" />
+			<Rotate y="90" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="big_tree fir_tree" />
+		<Transform>
+			<Translate x="-7.96000004" z="8.30999947" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="grass_ts" />
+		<Transform>
+			<Translate x="-2.62999988" y="0.0500000007" z="7.86999989" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="grass_fc" />
+		<Transform>
+			<Translate x="-4.46999979" z="10.2299995" />
+			<Rotate y="90" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="bush_1" />
+		<Transform>
+			<Translate x="-1.79999995" z="10.1599998" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="bush_2" />
+		<Transform>
+			<Translate x="-9.5" z="6.0999999" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="big_tree fir_tree" />
+		<Transform>
+			<Translate x="-1.80000007" z="6.80000019" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="house_fl" />
+		<Transform>
+			<Translate x="2.15999985" z="-7.69999981" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="big_tree fir_tree" />
+		<Transform>
+			<Translate x="-4.70000029" z="8.80000019" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="rock_bg" />
+		<Transform>
+			<Translate x="-4.48999977" z="6.75999975" />
+			<Rotate y="45" />
+		</Transform>
+	</Object>
+	<Object probability="0.5">
+		<Model variants="rock_sm" />
+		<Transform>
+			<Translate x="-5.70000029" z="6.70000029" />
+			<Rotate y="-30" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="bush_2" />
+		<Transform>
+			<Translate x="-1.02999997" z="9.06999969" />
+			<Rotate y="-60.0 60.0" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="ctrl_barr_fence" />
+		<Transform>
+			<Translate x="-9.34999943" z="-10.3000002" />
+		</Transform>
+	</Object>
+	<Object probability="0.6">
+		<Model variants="rock_sm" />
+		<Transform>
+			<Translate x="-8.67999935" z="-5.81999969" />
+			<Rotate y="15.0 45.0 60.0 75.0" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="traf_cone" />
+		<Transform>
+			<Translate x="-9.96000004" z="-9.55999947" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="traf_cone" />
+		<Transform>
+			<Translate x="-10.0500002" z="-6.69999981" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="light" />
+		<Transform>
+			<Translate x="2.18000007" z="-5.10999966" />
+			<Rotate y="90" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="bush_3" />
+		<Transform>
+			<Translate x="-1.89999998" z="8.69999981" />
+			<Rotate y="30.0 60.0 90.0" />
+		</Transform>
+	</Object>
+</Preset>

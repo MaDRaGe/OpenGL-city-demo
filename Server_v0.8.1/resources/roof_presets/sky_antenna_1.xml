@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Preset>
+	<Object name="antenna_obj" probability="0.5">
+		<Model variants="antenna" />
+		<Transform>
+			<Translate x="-2.4" z="-2.1" />
+		</Transform>
+	</Object>
+	<Object inverse-depend="antenna_obj">
+    <Model variants="antenna" />
+		<Transform>
+			<Translate x="2.4" z="1.7" />
+		</Transform>
+	</Object>
+</Preset>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<VariantsList>
+	<Variants id="big_threes" value="big_tree cube_tree fir_tree" />
+	<Variants id="benches" value="bench_1 bench_2" />
+	<Variants id="containers" value="cont_grn cont_bl cont_rd" />
+	<Variants id="trucks" value="truck_rd truck_gry truck_ye" />
+	<Variants id="cars" value="car_gry car_bl car_wh" />
+	<Variants id="jeeps" value="jeep_pu jeep_grn jeep_br" />
+	<Variants id="pick_ups" value="pu_truck_bl pu_truck_gry pu_truck_rd" />
+	<Variants id="sky_big_houses" value="sky_b_rd sky_b_bl sky_b_gr" />
+	<Variants id="sky_small_houses" value="sky_s_rd sky_s_or sky_s_gr" />
+	<Variants id="residential_houses" value="resid_hs_rd resid_hs_gr resid_hs_or" />
+  <Variants id="houses_type_1" value="house_1_rd house_1_or house_1_bl" />
+  <Variants id="houses_type_2" value="house_2_rd house_2_or house_2_gr" />
+	<Variants id="houses_type_3" value="house_3_rd house_3_or house_3_gr" />
+  <Variants id="houses_type_4" value="house_4_rd house_4_bl house_4_gr" />
+	<Variants id="rocks" value="rock_bg rock_sm" />
+	<Variants id="pot_bushes" value="pot_bu_b pot_bu_s" />
+  <Variants id="signs" value="sign_stop speed_lim" />
+</VariantsList>

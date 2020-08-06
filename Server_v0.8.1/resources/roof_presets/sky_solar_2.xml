@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Preset>
+	<Object>
+		<Model variants="solar_pan" />
+		<Transform>
+			<Translate x="2.1" z="-2.1" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="solar_pan" />
+		<Transform>
+			<Translate z="-2.1" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="solar_pan" />
+		<Transform>
+			<Translate x="2.1" z="-0.6" />
+		</Transform>
+	</Object>
+</Preset>

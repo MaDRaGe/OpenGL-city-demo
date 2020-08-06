@@ -1,0 +1,366 @@
+<?xml version="1.0"?>
+<Preset name="demo_scene" width="2" height="2">
+	<Object>
+		<Model variants="tile" />
+		<Transform>
+			<Translate x="5.2493" z="-5.2493" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="tile" />
+		<Transform>
+			<Translate x="5.2493" z="5.2493" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="tile" />
+		<Transform>
+			<Translate x="-5.2493" z="-5.2493" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="tile" />
+		<Transform>
+			<Translate x="-5.2493" z="5.2493" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="fruits_sh clothing_sh" />
+		<Transform>
+			<Translate x="-7.4" z="7.4" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="@sky_big_houses" />
+		<Transform>
+			<Translate z="7.4" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="chicken_sh music_st fast_food" />
+		<Transform>
+			<Translate x="7.2" z="7.95" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="gift_sh drug_st" />
+		<Transform>
+			<Translate x="-8.1" z="0.5" />
+			<Rotate y="-90.0" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="@sky_big_houses" />
+		<Transform>
+			<Translate x="-7.4" z="-6.6" />
+			<Rotate y="-90.0" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="pizza" />
+		<Transform>
+			<Translate z="-7.2" />
+			<Rotate y="180.0" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="@sky_small_houses" />
+		<Transform>
+			<Translate x="7.75" z="1.0" />
+			<Rotate y="90.0" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="bakery" />
+		<Transform>
+			<Translate x="7.3" z="-6.5" />
+			<Rotate y="90.0" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="road_ln_1" />
+		<Transform>
+			<Translate x="15.7479" z="5.2493" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="road_ln_1" />
+		<Transform>
+			<Translate x="15.7479" z="-5.2493" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="road_ln_1" />
+		<Transform>
+			<Translate x="-15.7479" z="5.2493" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="road_ln_1" />
+		<Transform>
+			<Translate x="-15.7479" z="-5.2493" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="road_ln_1" />
+		<Transform>
+			<Translate x="5.2493" z="15.7479" />
+			<Rotate y="90.0" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="road_ln_1" />
+		<Transform>
+			<Translate x="5.2493" z="-15.7479" />
+			<Rotate y="90.0" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="road_ln_1" />
+		<Transform>
+			<Translate x="-5.2493" z="15.7479" />
+			<Rotate y="90.0" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="road_ln_1" />
+		<Transform>
+			<Translate x="-5.2493" z="-15.7479" />
+			<Rotate y="90.0" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="road_cor_1" />
+		<Transform>
+			<Translate x="15.7479" z="15.7479" />
+			<Rotate y="180.0" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="road_cor_1" />
+		<Transform>
+			<Translate x="-15.7479" z="-15.7479" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="road_cor_2" />
+		<Transform>
+			<Translate x="15.7479" z="-15.7479" />
+			<Rotate y="-90" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="road_cor_2" />
+		<Transform>
+			<Translate x="-15.7479" z="15.7479" />
+			<Rotate y="90.0" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="helipad" />
+		<Transform>
+			<Translate x="-7.4" y="12.85" z="-6.6" />
+		</Transform>
+	</Object>
+	<Object name="antenna_obj" probability="0.6">
+		<Model variants="antenna" />
+		<Transform>
+			<Translate x="2.5" y="12.85" z="9.2" />
+		</Transform>
+	</Object>
+	<Object inverse-depend="antenna_obj">
+		<Model variants="solar_pan" />
+		<Transform>
+			<Translate x="-2.2" y="12.85" z="5.25" />
+		</Transform>
+	</Object>
+	<Object inverse-depend="antenna_obj">
+		<Model variants="solar_pan" />
+		<Transform>
+			<Translate x="-2.2" y="12.85" z="6.60" />
+		</Transform>
+	</Object>
+	<Object inverse-depend="antenna_obj">
+		<Model variants="solar_pan" />
+		<Transform>
+			<Translate x="-0.2" y="12.85" z="5.25" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="light" />
+		<Transform>
+			<Translate x="-12.3" y="0.35" z="5.2493" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="light" />
+		<Transform>
+			<Translate x="-12.3" y="0.35" z="-5.2493" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="light" />
+		<Transform>
+			<Translate x="12.3" y="0.35" z="5.2493" />
+			<Rotate y="180.0" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="light" />
+		<Transform>
+			<Translate x="12.3" y="0.35" z="-5.2493" />
+			<Rotate y="180.0" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="light" />
+		<Transform>
+			<Translate x="5.2493" y="0.35" z="-12.3" />
+			<Rotate y="-90.0" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="light" />
+		<Transform>
+			<Translate x="-5.2493" y="0.35" z="-12.3" />
+			<Rotate y="-90.0" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="light" />
+		<Transform>
+			<Translate x="5.2493" y="0.35" z="12.3" />
+			<Rotate y="90.0" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="light" />
+		<Transform>
+			<Translate x="-5.2493" y="0.35" z="12.3" />
+			<Rotate y="90.0" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="light" />
+		<Transform>
+			<Translate x="-5.2493" y="0.35" z="19.3" />
+			<Rotate y="-90.0" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="light" />
+		<Transform>
+			<Translate x="5.2493" y="0.35" z="19.3" />
+			<Rotate y="-90.0" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="light" />
+		<Transform>
+			<Translate x="5.2493" y="0.35" z="-19.3" />
+			<Rotate y="90.0" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="light" />
+		<Transform>
+			<Translate x="-5.2493" y="0.35" z="-19.3" />
+			<Rotate y="90.0" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="light" />
+		<Transform>
+			<Translate x="19.3" y="0.35" z="5.2493" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="light" />
+		<Transform>
+			<Translate x="19.3" y="0.35" z="-5.2493" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="light" />
+		<Transform>
+			<Translate x="-19.3" y="0.35" z="5.2493" />
+			<Rotate y="180.0" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="light" />
+		<Transform>
+			<Translate x="-19.3" y="0.35" z="-5.2493" />
+			<Rotate y="180.0" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="light" />
+		<Transform>
+			<Translate x="19.3" y="0.35" z="19.3" />
+			<Rotate y="-45.0" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="light" />
+		<Transform>
+			<Translate x="-19.3" y="0.35" z="-19.3" />
+			<Rotate y="135.0" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="light" />
+		<Transform>
+			<Translate x="-19.3" y="0.35" z="19.3" />
+			<Rotate y="-135.0" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="light" />
+		<Transform>
+			<Translate x="19.3" y="0.35" z="-19.3" />
+			<Rotate y="45.0" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="signal_b" />
+		<Transform>
+			<Translate x="12.3" y="0.35" z="10.0" />
+			<Rotate y="180.0" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="signal_b" />
+		<Transform>
+			<Translate x="-12.3" y="0.35" z="-10.0" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="signal_b" />
+		<Transform>
+			<Translate x="10.0" y="0.35" z="19.3" />
+			<Rotate y="-90.0" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="signal_b" />
+		<Transform>
+			<Translate x="-10.0" y="0.35" z="-19.3" />
+			<Rotate y="90.0" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="taxi police" />
+		<Transform>
+			<Translate x="-14.0" z="-7.0" />
+			<Rotate y="-90.0" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="@cars @jeeps" />
+		<Transform>
+			<Translate x="-2.0" z="17.5" />
+			<Rotate y="180.0" />
+		</Transform>
+	</Object>
+</Preset>

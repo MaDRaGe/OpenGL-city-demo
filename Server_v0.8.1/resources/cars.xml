@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Cars>
+	<Car name="ambul" popularity="4" />
+  <Car name="bus_bl" popularity="2" />
+  <Car name="bus_grn" popularity="2" />
+  <Car name="bus_rd" popularity="2" />
+  <Car name="car_bl" popularity="3" />
+  <Car name="car_gry" popularity="3" />
+  <Car name="car_wh" popularity="3" />
+  <Car name="cont_bl" popularity="1" />
+  <Car name="cont_grn" popularity="1" />
+  <Car name="cont_rd" popularity="1" />
+  <Car name="jeep_br" popularity="3" />
+  <Car name="jeep_grn" popularity="3" />
+  <Car name="jeep_pu" popularity="3" />
+  <Car name="pu_truck_bl" popularity="2" />
+  <Car name="pu_truck_gry" popularity="2" />
+  <Car name="pu_truck_rd" popularity="2" />
+  <Car name="police" popularity="6" />
+  <Car name="taxi" popularity="10" />
+  <Car name="truck_gry" popularity="1" />
+  <Car name="truck_rd" popularity="1" />
+  <Car name="truck_ye" popularity="1" />
+</Cars>

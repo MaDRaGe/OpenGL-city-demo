@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Preset>
+	<Object name="pot_bush_obj">
+		<Model variants="pot_bu_b pot_bu_s" />
+		<Transform>
+			<Translate x="-2.56" y="0.5994" z="0.79" />
+		</Transform>
+	</Object>
+	<Object depend="pot_bush_obj">
+		<Transform>
+			<Translate x="-0.71" y="0.5994" z="2.64" />
+		</Transform>
+	</Object>
+	<Object probability="0.5">
+		<Model variants="roof_pr" />
+		<Transform>
+			<Rotate y="-45.0 135.0" />
+		</Transform>
+	</Object>
+</Preset>

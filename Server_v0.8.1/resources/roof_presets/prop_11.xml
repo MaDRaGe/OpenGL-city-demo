@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<Preset>
+	<Object name="roof_prop_obj">
+		<Model variants="roof_pr_a" />
+		<Transform>
+			<Translate x="-1.8" z="-1.2" />
+			<Rotate y="-90.0 90.0" />
+		</Transform>
+	</Object>
+	<Object depend="roof_prop_obj">
+		<Model variants="roof_pr_a" />
+		<Transform>
+			<Translate x="1.8" z="-1.2" />
+		</Transform>
+	</Object>
+</Preset>

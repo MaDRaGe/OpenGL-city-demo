@@ -1,0 +1,255 @@
+<?xml version="1.0"?>
+<Preset width="2" height="2">
+	<Object>
+		<Model variants="coffee" />
+		<Transform>
+			<Translate x="2.45000005" z="4.81999969" />
+			<Rotate y="90" />
+		</Transform>
+	</Object>
+	<Object name="dustbin_obj_1">
+		<Model variants="dustbin" />
+		<Transform>
+			<Translate x="5.58999968" z="6.52999973" />
+		</Transform>
+	</Object>
+	<Object inverse-depend="dustbin_obj_1">
+    <Model variants="dustbin" />
+		<Transform>
+			<Translate x="5.53999996" z="3.72000003" />
+		</Transform>
+	</Object>
+  <Object name="dustbin_obj_2">
+		<Model variants="dustbin" />
+		<Transform>
+			<Translate x="-8.13000011" z="-4.80999994" />
+		</Transform>
+	</Object>
+  <Object inverse-depend="dustbin_obj_2">
+		<Model variants="dustbin" />
+		<Transform>
+			<Translate x="-8.10000038" z="-8" />
+		</Transform>
+	</Object>
+	<Object name="coffee_chair_obj">
+		<Model variants="coffee_chair" />
+		<Transform>
+			<Translate x="8.47999954" z="5.0999999" />
+      <Rotate y="0.0 90.0" />
+		</Transform>
+	</Object>
+	<Object depend="coffee_chair_obj">
+		<Transform>
+			<Translate x="8.42000008" z="2.0999999" />
+		</Transform>
+	</Object>
+  <Object depend="coffee_chair_obj">
+		<Transform>
+			<Translate x="8.40999985" z="7.81999969" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="@sky_small_houses" />
+		<Transform>
+			<Translate x="6.5999999" z="-7.5999999" />
+			<Rotate y="-180" />
+		</Transform>
+	</Object>
+	<Object probability="0.5">
+		<Model variants="@containers" />
+		<Transform>
+			<Translate x="7.20000029" z="-1.89999998" />
+			<Rotate y="-180" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="sign_stop" />
+		<Transform>
+			<Translate x="9.57999992" z="-3.64999986" />
+			<Rotate y="90" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="ctrl_barr_fence" />
+		<Transform>
+			<Translate x="3.79999995" z="-2" />
+			<Rotate y="90" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="@residential_houses" />
+		<Transform>
+			<Translate x="-5.5" z="6.1500001" />
+		</Transform>
+	</Object>
+	<Object name="bench_obj">
+		<Model variants="@benches" />
+		<Transform>
+			<Translate x="-7.5999999" z="9.40000057" />
+		</Transform>
+	</Object>
+	<Object depend="bench_obj">
+		<Transform>
+			<Translate x="-3.4000001" z="9.40000057" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="drug_st" />
+		<Transform>
+			<Translate x="-3.15999985" z="-7.67999983" />
+			<Rotate y="-180" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="ambul" />
+		<Transform>
+			<Translate x="1.5" z="-7.30000019" />
+			<Rotate y="-90" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="sign_stop" />
+		<Transform>
+			<Translate x="0.100000001" z="-10.1000004" />
+			<Rotate y="-180" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="big_tree cube_tree" />
+		<Transform>
+			<Translate x="9.67000008" z="9.60999966" />
+		</Transform>
+	</Object>
+	<Object name="pot_bush_obj_1">
+		<Model variants="pot_bu_b pot_bu_s" />
+		<Transform>
+			<Translate x="9.40999985" z="6.55999994" />
+		</Transform>
+	</Object>
+	<Object depend="pot_bush_obj_1">
+		<Transform>
+			<Translate x="9.36999989" z="3.75999999" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="@sky_small_houses" />
+		<Transform>
+			<Translate x="-4.80000019" z="-0.800000012" />
+			<Rotate y="-90" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="bus_stop" />
+		<Transform>
+			<Translate x="-8.23999977" z="-6.42999983" />
+			<Rotate y="-90" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="big_tree cube_tree" />
+		<Transform>
+			<Translate x="-9.17000008" z="-9.28999996" />
+		</Transform>
+	</Object>
+	<Object name="pot_bush_obj_2">
+		<Model variants="pot_bu_s pot_bu_b" />
+		<Transform>
+			<Translate x="-8" z="-2.10000014" />
+		</Transform>
+	</Object>
+	<Object depend="pot_bush_obj_2">
+		<Transform>
+			<Translate x="-8" z="0.300000012" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="@benches" />
+		<Transform>
+			<Translate x="-8.05000019" z="-6.42000008" />
+			<Rotate y="90" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="fence" />
+		<Transform>
+			<Translate x="-7.73500013" z="-4.06000042" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="fence" />
+		<Transform>
+			<Translate x="-8.71200085" z="-4.06000042" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="fence" />
+		<Transform>
+			<Translate x="-9.19999981" z="-3.6099999" />
+			<Rotate y="90" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="fence" />
+		<Transform>
+			<Translate x="-9.19999981" z="-2.66000002" />
+			<Rotate y="90" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="fence" />
+		<Transform>
+			<Translate x="-9.19999981" z="2.36999989" />
+			<Rotate y="90" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="fence" />
+		<Transform>
+			<Translate x="-9.20000076" z="1.42500007" />
+			<Rotate y="90" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="fence" />
+		<Transform>
+			<Translate x="-9.20000076" z="0.489000022" />
+			<Rotate y="90" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="ctrl_barr_fence" />
+		<Transform>
+			<Translate x="1.5" z="-4.80000019" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="big_tree fir_tree" />
+		<Transform>
+			<Translate x="1.75" z="-2.29999995" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="tile" />
+		<Transform>
+			<Translate x="-5.2493" z="-5.2493" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="tile" />
+		<Transform>
+			<Translate x="-5.2493" z="5.2493" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="tile" />
+		<Transform>
+			<Translate x="5.2493" z="-5.2493" />
+		</Transform>
+	</Object>
+	<Object>
+		<Model variants="tile" />
+		<Transform>
+			<Translate x="5.2493" z="5.2493" />
+		</Transform>
+	</Object>
+</Preset>

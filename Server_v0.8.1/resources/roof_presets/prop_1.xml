@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<Preset>
+	<Object name="roof_prop">
+		<Model variants="roof_pr_a" />
+		<Transform>
+			<Translate x="2.2" z="-1.9" />
+      <Rotate y="0.0 180.0" />
+		</Transform>
+	</Object>
+	<Object depend="roof_prop" probability="0.4">
+		<Model variants="roof_pr_a" />
+		<Transform>
+			<Translate x="2.2" z="-0.8" />
+		</Transform>
+	</Object>
+</Preset>

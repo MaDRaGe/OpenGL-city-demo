@@ -1,0 +1,19 @@
+﻿  Camera.cpp
+  Data.cpp
+H:\_Labs\KG\ShaderHandaling\Camera.h(11,10): fatal error C1083: Не удается открыть файл включение: freeglut.h: No such file or directory,
+  display.cpp
+H:\_Labs\KG\ShaderHandaling\ShaderProgram.h(2,10): fatal error C1083: Не удается открыть файл включение: glm.hpp: No such file or directory,
+  GraphicObject.cpp
+H:\_Labs\KG\ShaderHandaling\display.h(2,10): fatal error C1083: Не удается открыть файл включение: glm.hpp: No such file or directory,
+  Mesh.cpp
+H:\_Labs\KG\ShaderHandaling\Mesh.h(10,10): fatal error C1083: Не удается открыть файл включение: glew.h: No such file or directory,
+  ResourceManager.cpp
+H:\_Labs\KG\ShaderHandaling\Mesh.h(10,10): fatal error C1083: Не удается открыть файл включение: glew.h: No such file or directory,
+  Shader.cpp
+  ShaderProgram.cpp
+H:\_Labs\KG\ShaderHandaling\Mesh.h(10,10): fatal error C1083: Не удается открыть файл включение: glew.h: No such file or directory,
+  ShaderHandaling.cpp
+H:\_Labs\KG\ShaderHandaling\ShaderProgram.h(2,10): fatal error C1083: Не удается открыть файл включение: glm.hpp: No such file or directory,
+  simulation.cpp
+H:\_Labs\KG\ShaderHandaling\simulation.h(3,10): fatal error C1083: Не удается открыть файл включение: glew.h: No such file or directory,
+H:\_Labs\KG\ShaderHandaling\simulation.h(3,10): fatal error C1083: Не удается открыть файл включение: glew.h: No such file or directory,

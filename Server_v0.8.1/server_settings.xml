@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Settings>
+	<Net>
+		<IP value="127.0.0.1" />
+		<Port value="27000" />
+		<Ping min="0" max="0" />
+		<ShowClients value="1" />
+	</Net>
+	<City>
+		<Size width="60" height="60" />
+		<ShowField value="0" />
+		<Cars count="50" />
+	</City>
+	<Command>
+		<ObjectsLimit value="15000" />
+	</Command>
+	<Probabilities>
+		<Hydrant probability="0.3" />
+		<Roof probability="0.5" />
+	</Probabilities>
+</Settings>

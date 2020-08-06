@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Preset>
+	<Object>
+		<Model variants="antenna" />
+		<Transform>
+			<Translate z="-0.4" />
+		</Transform>
+	</Object>
+</Preset>

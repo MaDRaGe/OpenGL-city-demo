@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<Roofs>
+	<Roof building="a_service" y="1.7174" variants="auto_service_prop" />
+  <Roof building="bakery" y="1.1988" variants="prop_1" />
+  <Roof building="bar" y="2.591" variants="prop_2" />
+  <Roof building="books_sh" y="2.0698" variants="prop_3 prop_4" />
+  <Roof building="chicken_sh" y="2.4037" variants="prop_5 prop_11" />
+  <Roof building="clothing_sh" y="2.4467" variants="prop_3 prop_4 prop_and_pot_bush" />
+  <Roof building="coffee" y="1.6309" variants="prop_14 prop_15" />
+  <Roof building="drug_st" y="0.7654" variants="prop_12" />
+  <Roof building="fast_food" y="2.4037" variants="prop_5 prop_11" />
+  <Roof building="fruits_sh" y="2.4467" variants="prop_3 prop_4 prop_and_pot_bush" />
+  <Roof building="gift_sh" y="0.7654" variants="prop_12" />
+  <Roof building="house_1_bl" y="2.2514" variants="prop_6 prop_7" />
+  <Roof building="house_1_or" y="2.2514" variants="prop_6 prop_7" />
+  <Roof building="house_1_rd" y="2.2514" variants="prop_6 prop_7" />
+  <Roof building="house_2_gr" y="2.2145" variants="prop_6 prop_7" />
+  <Roof building="house_2_or" y="2.2145" variants="prop_6 prop_7" />
+  <Roof building="house_2_rd" y="2.2145" variants="prop_6 prop_7" />
+  <Roof building="house_3_gr" y="2.2267" variants="prop_8 solar_panes" />
+  <Roof building="house_3_or" y="2.2267" variants="prop_8 solar_panes" />
+  <Roof building="house_3_rd" y="2.2267" variants="prop_8 solar_panes" />
+  <Roof building="house_4_bl" y="2.0657" variants="prop_9" />
+  <Roof building="house_4_gr" y="2.0657" variants="prop_9" />
+  <Roof building="house_4_rd" y="2.0657" variants="prop_9" />
+  <Roof building="music_st" y="2.4037" variants="prop_5 prop_11" />
+  <Roof building="pizza" y="1.3862" variants="prop_13" />
+  <Roof building="resid_hs_gr" y="4.8934" variants="prop_10 sky_sm_antenna sky_sm_prop" />
+  <Roof building="resid_hs_or" y="4.8934" variants="prop_10 sky_sm_antenna sky_sm_prop" />
+  <Roof building="resid_hs_rd" y="4.8934" variants="prop_10 sky_sm_antenna sky_sm_prop" />
+  <Roof building="rest" y="2.59093" variants="prop_2" />
+  <Roof building="shoes_sh" y="2.0698" variants="prop_3 prop_4" />
+  <Roof building="sky_b_bl" y="6.3178" variants="helipad sky_antenna_1 sky_antenna_2 sky_solar_1 sky_solar_2" />
+  <Roof building="sky_b_gr" y="6.3178" variants="helipad sky_antenna_1 sky_antenna_2 sky_solar_1 sky_solar_2" />
+  <Roof building="sky_b_rd" y="6.3178" variants="helipad sky_antenna_1 sky_antenna_2 sky_solar_1 sky_solar_2" />
+  <Roof building="sky_s_gr" y="4.253" variants="sky_sm_chair sky_sm_solar sky_sm_antenna sky_sm_prop" />
+  <Roof building="sky_s_or" y="4.253" variants="sky_sm_chair sky_sm_solar sky_sm_antenna sky_sm_prop" />
+  <Roof building="sky_s_rd" y="4.253" variants="sky_sm_chair sky_sm_solar sky_sm_antenna sky_sm_prop" />
+  <Roof building="super_m" y="1.8388" variants="supermarket_prop_1 supermarket_prop_2 supermarket_prop_3" />
+</Roofs>

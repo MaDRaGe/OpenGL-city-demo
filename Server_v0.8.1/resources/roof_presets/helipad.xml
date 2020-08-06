@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Preset>
+	<Object>
+		<Model variants="helipad" />
+    <Transform>
+      <Rotate y="0.0 90.0"/>
+    </Transform>
+	</Object>
+</Preset>

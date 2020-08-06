@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Preset>
+	<Object>
+		<Model variants="solar_pan" />
+		<Transform>
+			<Translate z="-1" />
+		</Transform>
+	</Object>
+	<Object name="solar_pane_obj" probability="0.5">
+		<Model variants="solar_pan" />
+		<Transform>
+			<Translate x="1.9" z="-1" />
+		</Transform>
+	</Object>
+	<Object depend="solar_pane_obj">
+		<Transform>
+			<Translate x="-1.9" z="-1" />
+		</Transform>
+	</Object>
+</Preset>

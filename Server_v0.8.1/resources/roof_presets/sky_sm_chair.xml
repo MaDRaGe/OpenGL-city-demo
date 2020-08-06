@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Preset>
+	<Object name="coffee_chair_obj" probability="0.4">
+		<Model variants="coffee_chair" />
+		<Transform>
+			<Translate x="-1.5" z="-1.6" />
+      <Rotate y="0.0 45.0 90.0 -45.0" />
+		</Transform>
+	</Object>
+	<Object depend="coffee_chair_obj">
+		<Transform>
+			<Translate x="1.5" z="-1.6" />
+		</Transform>
+	</Object>
+	<Object depend="coffee_chair_obj">
+		<Transform>
+			<Translate z="0.6" />
+		</Transform>
+	</Object>
+</Preset>

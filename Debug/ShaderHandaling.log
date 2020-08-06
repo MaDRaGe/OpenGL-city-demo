@@ -1,0 +1,4 @@
+﻿  Data.cpp
+H:\_Labs\KG\ShaderHandaling\Data.cpp(28,16): warning C4129: D: неизвестная escape-последовательность
+H:\_Labs\KG\ShaderHandaling\Data.cpp(29,23): warning C4129: D: неизвестная escape-последовательность
+  ShaderHandaling.vcxproj -> H:\_Labs\KG\ShaderHandaling\Debug\ShaderHandaling.exe
